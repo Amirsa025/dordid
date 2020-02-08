@@ -1,0 +1,549 @@
+.alert_red__am {
+    width: 100%;
+    background-color: #ec4553;
+    opacity: 0.8;
+    color: #ffff;
+    text-align: center;
+    font-size: 14px;
+    height: 35px;
+    line-height: 2.5;
+}
+
+.star_icon_list__am i {
+    color: #ffac5f;
+    border: 2px #ffac5f;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.alert_red__am a {
+    color: #ffff;
+    font-size: 14px;
+}
+
+.header_img_am {
+    background: linear-gradient(rgba(53, 54, 82, 0.85), rgba(53, 54, 82, 0.85)), url(../img/813087.png) no-repeat;
+    min-height: 320px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-size: cover;
+}
+
+.header_title_period__list h1 {
+    color: #ffff;
+    font-size: 24px;
+    padding-top: 33px;
+    padding-right: 10px;
+}
+
+.header_title_period__list {
+    color: #ffff;
+    font-size: 24px;
+}
+
+.btn_period_list__am {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8bbea9;
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    display: block;
+    margin-right: 10px;
+}
+
+.user-class_title__am {
+    color: #bbf5d5;
+    font-size: 14px;
+}
+
+.refresh__am {
+    color: #bbf5d5;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.user-class__am {
+    margin: 20px;
+}
+
+.proflie_img_teacher__am {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.teacher_periodlist {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.proflie_teacher__am {
+    margin: 33px;
+}
+
+.teacher_title__am {
+    margin-right: 20px;
+}
+
+.teacher_star_icon_list__am {
+    border: 2px #ffac5f;
+    font-size: 14px;
+}
+
+.tozih-header__am p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 2;
+}
+
+.time-calender__am {
+    font-size: 14px;
+    margin-right: 15px;
+    color: #d0d80e;
+    font-weight: bold;
+}
+
+.btn_time_calender__Am {
+    width: 135px;
+    height: 40px;
+    border: 1px solid #d0d80e;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: #d0d80e;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.btn_time_calender__Am:hover {
+    background-color: #f3e703;
+    color: #ffffff;
+
+}
+
+.video_period_list__am {
+    height: 182px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.video_period_list__am img {
+    opacity: 0.25;
+    background-color: #000000;
+    filter: alpha(opacity=100);
+    border-radius: 10px;
+}
+
+.play_video__am {
+    color: #ffffff;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.play_video__am:hover {
+    opacity: 1;
+    color: white;
+}
+
+.play_video__am {
+    position: absolute;
+    left: 80px;
+    top: 65px;
+}
+
+.play_video__am span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*end header main*/
+/*main asli*/
+.end-period__am {
+    margin-top: 25px;
+    border: 1px solid #ffac5f;
+    padding: 10px;
+    border-radius: 11px;
+}
+
+.btn_end_red__am {
+    width: 169px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #ff6868;
+    text-align: center;
+    line-height: 3;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn_end_orang__am {
+    width: 169px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #ffac5f;
+    text-align: center;
+    line-height: 3;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn_end_blue__am {
+    width: 169px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 3;
+    color: #fff;
+    background-color: #353652;
+    margin-right: 10px;
+}
+
+.end-period__am h2 {
+    font-size: 26px;
+    color: #ffac5f;
+}
+
+.student-periodlist__title {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.student-periodlist__title h3{
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.student_profile_am {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.student_profile_am span {
+    display: block;
+    font-size: 11px;
+    margin: 5px;
+}
+
+.see-period__am {
+    color: #c4c4c4;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*comment list*/
+.comment_list__am h3, .comment_list__am i {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.comment_list__am h3{
+    display: inline-block;
+}
+.media_list__am {
+    border-top: 1px solid #eeeeee;
+    margin-top: 33px;
+}
+
+.img_media__am {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 33px;
+}
+
+.media_head__am {
+    width: 100%;
+    color: #dcdcdc;
+    margin-top: 22px;
+    padding-right: 46px;
+}
+
+.meida_object {
+    font-size: 12px;
+    font-weight: normal;
+    color: #e0e0e0;
+}
+
+.tozih_comment__am p {
+    padding-right: 31px;
+    margin-top: 27px;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+/*comment list*/
+.cast_period_title {
+    background-color: #e3fff1;
+    width: 190px;
+    height: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+
+}
+
+.cast_period_am {
+    margin-top: 33px;
+    width: 346px;
+}
+
+.invite_class {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #343890;
+    width: 160px;
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    line-height: 4;
+}
+
+.cast_period_title__h4 {
+    color: #00a651;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.76;
+}
+
+.cast_period_title__h5 {
+    color: #00a651;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+
+.live_class_btn__am {
+    width: 350px;
+    height: 80px;
+    background-color: #ff4552;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 3.5;
+}
+
+.live_class_h3 {
+    font-size: 16px;
+    color: #fff;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+.live_class_h4 {
+    font-size: 12px;
+    color: #fff;
+    padding-right: 15px;
+}
+.forget__period__am{
+    color: #5287df;
+    font-size: 20px;
+    margin-top: 36px;
+}
+.forget__period__am h6 {
+    font-size: 16px;
+    padding-right: 10px;
+    color: #343890;
+    font-weight: bold;
+    display: inline-block;
+}
+.flag_period_list i{
+    font-size: 14px;
+    color: #5287df;
+}
+.flag_period_list span  {
+    color: #8889a0;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 11px;
+}
+.flag_period_list {
+    margin-top: 44px;
+
+}
+
+/*main asli*/
+
+/* responsive amir*/
+@media screen and  (max-width: 1200px) {
+    .play_video__am {
+        position: absolute;
+        left: 80px;
+        top: 65px;
+    }
+
+    .cast_period_am {
+        padding-left: 50px;
+    }
+    .live_class_btn__am {
+       width:300px;
+    }
+}
+
+@media screen and  (max-width: 992px) {
+    .play_video__am {
+        position: absolute;
+        left: 100px;
+        top: 65px;
+    }
+
+    .end-period__am h2 {
+        font-size: 26px;
+        color: #ffac5f;
+        margin: 11px auto;
+    }
+
+    .btn-catagori__am {
+        margin: 0 auto;
+    }
+
+    .star_icon_list__am {
+        padding-right: 15px;
+    }
+
+    .cast_period_am {
+        padding-left: 10px;
+    }
+    .live_class_btn__am {
+        width:340px;
+    }
+
+}
+
+@media screen and  (max-width: 768px) {
+    .play_video__am {
+        position: absolute;
+        top: 65px;
+        left: 170px;
+    }
+
+    .btn_end_red__am, .btn_end_blue__am, .btn_end_orang__am {
+        margin-top: 10px;
+    }
+
+    .header_period_am {
+        width: 100%;
+    }
+
+    .btn_period_list__am {
+        margin: 0 auto;
+    }
+
+    .star__list__am {
+        margin: 0 auto;
+    }
+
+    .cast_period_am {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .live_class_btn__am {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .forget__period__am{
+        text-align: center;
+    }
+    .flag_period_list{
+        text-align: center;
+    }
+}
+
+@media screen and  (max-width: 480px) {
+    .btn_period_list__am {
+        margin: 0 auto;
+    }
+
+    .star_icon_list__am i {
+        margin-top: 10px;
+    }
+
+    .teacher_title__am {
+        padding-right: 5px;
+    }
+
+    .play_video__am {
+        position: absolute;
+        left: 145px;
+        top: 65px;
+    }
+
+    .time-calender__am {
+        text-align: center;
+    }
+
+    .btn_end_red__am, .btn_end_blue__am, .btn_end_orang__am {
+        margin-top: 10px;
+    }
+
+    .star__list__am {
+        margin: 0 auto;
+    }
+
+    .tozih_comment__am {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .cast_period_am {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .live_class_btn__am {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .forget__period__am{
+        text-align: center;
+    }
+    .flag_period_list{
+        text-align: center;
+    }
+}
+
+@media screen and  (max-width: 320px) {
+    .cast_period_am{
+        width: 300px;
+    }
+    .invite_class{
+        width: 150px;
+    }
+    .live_class_btn__am{
+        width: 100%;
+    }
+    .header_title_period__list h1 {
+        font-size: 22px;
+    }
+    .tozih_comment__am {
+        text-align: justify;
+        width: 100%;
+    }
+    .media_head__am {
+        margin-top: 22px;
+        padding-right: 22px;
+    }
+}

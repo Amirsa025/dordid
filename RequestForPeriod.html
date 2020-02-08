@@ -1,0 +1,773 @@
+﻿<!doctype html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/faveicon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel='stylesheet prefetch' href='css/owl.carousel.min.css'>
+    <link rel='stylesheet prefetch' href='css/lightgallery.min.css'>
+    <link rel='stylesheet prefetch' href='css/owl.theme.default.min.css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style__am.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="/theme/ecp/assets/js/selectivizr-min.js"></script> <![endif]-->
+    <!--[if IE 8 ]>
+    <body class="ieBrowser"><![endif]-->
+    <!--[if IE 9]>
+    <html class="ie9Browser">   <![endif]-->
+    <title>دوردید</title>
+</head>
+
+<body>
+<!-- header -->
+<div id="header-in">
+    <div class="container">
+        <nav class="navbar navbar-light fix-nav">
+            <div class="d-flex align-items-center">
+                <img src="img/Logo-fix.png"/>
+                <button class="navbar-toggler openCollapsingNavbar" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse" id="exCollapsingNavbar">
+                    <ul class="d-flex align-items-center">
+                        <li>
+                            <a href="#" class="transition-5">
+                                <i class="fa fa-home transition-5"></i> صفحه اصلی
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="transition-5">
+                                <i class="fa fa-gavel transition-5"></i> قوانین و مقررات
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="transition-5">
+                                <i class="fa fa-info-circle transition-5"></i> درباره دوردید
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="transition-5">
+                                <i class="fa fa-envelope-open transition-5"></i> تماس با دوردید
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-search show-md open-srch"></i>
+                <div class="hide-md md-open1">
+                    <div class="search-form">
+                        <form>
+                            <div class="inp-wrap cat-wrap">
+                                <label for="categories" class="sr-only">دسته بندی</label>
+                                <select name="search" id="categories" class="grid-100 IRANSans-Light">
+                                    <option disabled="" selected="">دوره ها</option>
+                                    <option>طراحی</option>
+                                    <option>C#</option>
+                                    <option>PHP</option>
+                                    <option>ASP.NET</option>
+                                </select>
+                            </div>
+                            <div class="inp-wrap search-wrap">
+                                <label for="search-field" class="search-label sr-only">جسجو</label>
+                                <input type="search" class="grid-100 input-search IRANSans-Light"
+                                       placeholder="عبارتی برای جستجو اینجا بنویسید...">
+                            </div>
+                            <div class="inp-wrap submit-wrap">
+                                <button class="grid-100 btn btn-search-cat">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-darkhast"><img src="img/video-plus.png"><span>درخواست دوره</span></a>
+                <a class="alarm d-flex justify-content-center align-items-center" data-toggle="modal"
+                   data-target="#notifacation">
+                    <i class="fa fa-bell"></i>
+                    <span class="noti-num">
+                        </span>
+                </a>
+                <label for="profile2" class="profile-dropdown">
+
+                    <img src="img/Dribbble.png" class="img-thumbnail">
+                    <span class="user_name">علیرضا</span>
+                    <label for="profile2"><i class="fa fa-angle-down"></i></label>
+                    <ul class="open-pro">
+                        <li class="li-pro">
+                            <img src="img/ddd.png" class="img-dropdown">
+                            <div class="pro-name">
+                                <span>علیرضا میرزابیگی</span>
+                                <div class="d-flex justify-content-between">
+                                    <div class="blue etebar-aa">اعتبار</div>
+                                    <div class="blue">23,000 تومان</div>
+                                </div>
+                            </div>
+                        </li>
+                        <hr>
+                        <li><a href="#" class="transition-5"><i class="fa fa-columns transition-5"></i>
+                            داشبورد</a>
+                        </li>
+                        <li>
+                            <a href="#" class="transition-5"><i class="fa fa-video-camera transition-5"></i> دوره
+                                های من
+                                <div class="num-badge d-flex justify-content-center align-items-center">3</div>
+                            </a>
+                        </li>
+                        <li><a href="#" class="transition-5"><i class="fa fa-cog transition-5"></i> تنظیمات
+                            حساب</a>
+                        </li>
+                        <li><a href="#" class="transition-5"><i class="fa fa-asterisk transition-5"></i> مهارت و
+                            سوابق
+                            من</a></li>
+                        <li><a href="#" class="transition-5"><i class="fa fa-money transition-5"></i> افزایش
+                            اعتبار
+                            مالی</a>
+                        </li>
+                        <li><a href="#" class="transition-5 power-off"><i class="fa fa-power-off transition-5"></i>
+                            خروج</a>
+                        </li>
+                    </ul>
+                </label>
+            </div>
+
+        </nav>
+
+    </div>
+</div>
+<!-- header -->
+
+
+<!--main request list-->
+<div class="header_up_period_list">
+    <div class="container no-padd-md">
+        <div class="header_req_img_am ">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-7 ">
+                    <div class="d-flex justify-content-between flex-wrap text-center">
+                        <div class="header_period_am">
+                            <div class="header_title_period__list ">
+                                <h1 class="IRANSans-Bold blue-dark"><span class="IRANSans-Bold orang pr-1"> درخواست کلاس :</span>
+                                    عنوان دوره ایجاد شده در سایت </h1>
+                                <a href="#" class="btn_req_period_list__am">
+                                    سئو و بهینه سازی وب
+                                </a>
+                                <div class="user-class__am d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="user-class_req_title__am ">
+                                        <i class="fa fa-user-circle-o"></i>
+                                        <span class="class_user__am">15 جلسه کلاس</span>
+                                    </div>
+                                    <div class="refresh_req__am">
+                                        <i class="fa fa-refresh"></i>
+                                        <span class="">2 تعداد تکرار</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-5">
+                    <div class="proflie_teacher__am d-flex justify-content-center justify-content-md-end">
+                        <div class="proflie_img_teacher__am ">
+                            <img src="img/profile_teacher.png" alt="">
+
+                        </div>
+                        <div class="teacher_title__am">
+                            <h2 class="text-white teacher_req_periodlist blue-dark">دانشجو : بینام بینامیان</h2>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 ">
+
+                    <div class="tozih-header__am">
+                        <p class="blue-dark font-weight-bold"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                            و با استفاده از
+                            طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                            لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                            ابزارهای کاربردی می باشد.</p>
+                    </div>
+                    <div class="time_calender__am">
+                        <div class="time-calender_req__am">
+                            <i class="fa fa-calendar"></i>
+                            <span>زمان بندی و روز کلاس ها</span>
+                        </div>
+                        <div class="d-flex align-items-center flex-wrap justify-content-center justify-content-lg-start">
+                            <a href="#" class="btn_time_calender__Am transition-5">
+                                شنبه 18:00 - 21:00
+                            </a>
+                            <a href="#" class="btn_time_calender__Am transition-5">
+                                شنبه 18:00 - 21:00
+                            </a>
+                            <a href="#" class="btn_time_calender__Am transition-5">
+                                شنبه 18:00 - 21:00
+                            </a>
+                            <a href="#" class="btn_time_calender__Am transition-5">
+                                شنبه 18:00 - 21:00
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-12 col-lg-5">
+                    <div class="cast_student__am d-flex justify-content-center justify-content-lg-end">
+                        <div class="boodjeh_am">
+                            <span>بودجه<br> دانشجو </span>
+                        </div>
+                        <div class="money_hour__Am">
+                                    <span>
+                                        33,000 تومان<br>
+                                            برای هر ساعت
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="student-periodlist">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-8 student-periodlist-item">
+                <!--comment list-->
+                <div class="comment_list__am text-sm-center text-md-right">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h3>پیشنهادات مدرس ها</h3>
+                </div>
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="media media_req__am">
+                        <a href="#" class="student_profile_am mr-2">
+                            <img src="img/profile_teacher.png" alt="">
+                            <span class="spanam">علی مرادیان</span>
+                        </a>
+
+                        <div class="media-body">
+                            <div class="media_head__am d-flex justify-content-between">
+                                <div class="meida_object">
+                                    <span>14 مرداد</span>
+                                </div>
+                                <div class="orang">
+                                    <span class="orang">3/5</span>
+                                    <i class="fa fa-star-o pr-2"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body ">
+                                <div class=" media_hour">
+                                    <h4 class="">23,000 <span class="media_span">تومان</span></h4>
+                                    <h5>به ازای هر ساعت</h5>
+                                </div>
+                            </div>
+                            <a href="#" class=" btn_req__am d-block">
+                                قبول پیشنهاد
+                            </a>
+                        </div>
+                    </div>
+                    <div class="media media_req__am">
+                        <a href="#" class="student_profile_am mr-2">
+                            <img src="img/profile_teacher.png" alt="">
+                            <span class="spanam">علی مرادیان</span>
+                        </a>
+
+                        <div class="media-body">
+                            <div class="media_head__am d-flex justify-content-between">
+                                <div class="meida_object">
+                                    <span>14 مرداد</span>
+                                </div>
+                                <div class="orang">
+                                    <span class="orang">3/5</span>
+                                    <i class="fa fa-star-o pr-2"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body position-relative">
+                                <div class=" media_hour">
+                                    <h4 class="">23,000 <span class="media_span">تومان</span></h4>
+                                    <h5>به ازای هر ساعت</h5>
+                                </div>
+                            </div>
+                            <a href="#" class=" btn_req__am d-block">
+                                قبول پیشنهاد
+                            </a>
+                        </div>
+                    </div>
+                    <div class="media media_req__am">
+                        <a href="#" class="student_profile_am mr-2">
+                            <img src="img/profile_teacher.png" alt="">
+                            <span class="spanam">علی مرادیان</span>
+                        </a>
+
+                        <div class="media-body">
+                            <div class="media_head__am d-flex justify-content-between">
+                                <div class="meida_object">
+                                    <span>14 مرداد</span>
+                                </div>
+                                <div class="orang">
+                                    <span class="orang">3/5</span>
+                                    <i class="fa fa-star-o pr-2"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body position-relative">
+                                <div class=" media_hour">
+                                    <h4 class="">23,000 <span class="media_span">تومان</span></h4>
+                                    <h5>به ازای هر ساعت</h5>
+                                </div>
+                            </div>
+                            <a href="#" class=" btn_req__am d-block">
+                                قبول پیشنهاد
+                            </a>
+                        </div>
+                    </div>
+                    <div class="media media_req__am">
+                        <a href="#" class="student_profile_am mr-2">
+                            <img src="img/profile_teacher.png" alt="">
+                            <span class="spanam">علی مرادیان</span>
+                        </a>
+
+                        <div class="media-body">
+                            <div class="media_head__am d-flex justify-content-between">
+                                <div class="meida_object">
+                                    <span>14 مرداد</span>
+                                </div>
+                                <div class="orang">
+                                    <span class="orang">3/5</span>
+                                    <i class="fa fa-star-o pr-2"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body position-relative">
+                                <div class=" media_hour">
+                                    <h4 class="">23,000 <span class="media_span">تومان</span></h4>
+                                    <h5>به ازای هر ساعت</h5>
+                                </div>
+                            </div>
+                            <a href="#" class=" btn_req__am d-block">
+                                قبول پیشنهاد
+                            </a>
+                        </div>
+                    </div>
+                    <div class="media media_req__am">
+                        <a href="#" class="student_profile_am mr-2">
+                            <img src="img/profile_teacher.png" alt="">
+                            <span class="spanam">علی مرادیان</span>
+                        </a>
+
+                        <div class="media-body">
+                            <div class="media_head__am d-flex justify-content-between">
+                                <div class="meida_object">
+                                    <span>14 مرداد</span>
+                                </div>
+                                <div class="orang">
+                                    <span class="orang">3/5</span>
+                                    <i class="fa fa-star-o pr-2"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body position-relative">
+                                <div class=" media_hour">
+                                    <h4 class="">23,000 <span class="media_span">تومان</span></h4>
+                                    <h5>به ازای هر ساعت</h5>
+                                </div>
+                            </div>
+                            <a href="#" class=" btn_req__am d-block">
+                                قبول پیشنهاد
+                            </a>
+                        </div>
+                    </div>
+                    <div class="media media_req__am">
+                        <a href="#" class="student_profile_am mr-2">
+                            <img src="img/profile_teacher.png" alt="">
+                            <span class="spanam">علی مرادیان</span>
+                        </a>
+
+                        <div class="media-body">
+                            <div class="media_head__am d-flex justify-content-between">
+                                <div class="meida_object">
+                                    <span>14 مرداد</span>
+                                </div>
+                                <div class="orang">
+                                    <span class="orang">3/5</span>
+                                    <i class="fa fa-star-o pr-2"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body position-relative">
+                                <div class=" media_hour">
+                                    <h4 class="">23,000 <span class="media_span">تومان</span></h4>
+                                    <h5>به ازای هر ساعت</h5>
+                                </div>
+                            </div>
+                            <a href="#" class=" btn_req__am d-block">
+                                قبول پیشنهاد
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-4">
+                <div class="item-in-buy  sticky">
+                    <a class="cast_req_period_title cast_period_req_am d-flex align-items-center justify-content-center"
+                       href="#" data-toggle="modal" data-target="#sub-commnet">
+                        <h4 class="cast_period_title__h4">
+                            <i class="fa fa-plus text-white"></i>
+                            <span class="text-white">ارائه پیشنهاد به دانشجو</span>
+                        </h4>
+                    </a>
+                    <a href="#">
+                        <div class="live_class_btn__am d-flex align-items-center justify-content-center">
+                            <i class="fa fa-video-camera"></i>
+                            <div class="live_class_live__am">
+                                <h3 class="live_class_h3">رفتن به پخش زنده کلاس</h3>
+                                <h4 class="live_class_h4">( 45 ساعت و 22 و 32 دقیقه)</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="forget__period__am">
+                    <i class="fa fa-exclamation-circle"></i>
+                    <h6>لازم است به یاد داشته باشید</h6>
+                </div>
+                <div class="flag_period_list">
+                    <i class="fa fa-flag"></i>
+                    <span class="">
+                        لورم ایپسوم متن ساختگی با تولید سادگی
+                    </span>
+
+                </div>
+                <div class="flag_period_list">
+                    <i class="fa fa-flag"></i>
+                    <span class="">
+                        لورم ایپسوم متن ساختگی با تولید سادگی
+                    </span>
+
+                </div>
+                <div class="flag_period_list">
+                    <i class="fa fa-flag"></i>
+                    <span class="">
+                        لورم ایپسوم متن ساختگی با تولید سادگی
+                         </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--main request list-->
+
+
+<!-- footer -->
+<footer class="footer_list__am">
+    <div id="footer-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 bg-dark-gray">
+                    <div class="version__am d-flex align-items-center order-2">
+                        <img src="img/fin.png" alt="دوردید">
+                        <div class="mtn__am">
+                            <h2 class="green-dark version__dordid__am">دوردید نسخه 1.0</h2>
+                            <h3 class="orang version__online__am">پلتفرم آموزش آنلاین خصوصی و عمومی</h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center version__am2 align-items-center">
+                        <div class="d-flex flex-column noskhe1__am">
+                            <div class="noskh__num">1/0</div>
+                            <div class="noskh__text">نسخه</div>
+                        </div>
+                        <p class="tozih__am">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان
+                            گرافیک است. چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و ..</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <div>
+                            <div class="period_list__am">
+                                <i class="fa fa-video-camera"></i>
+                                <span class="period_title__am">دسته بندی دوره ها</span>
+                            </div>
+                            <div class="title_list__am  mt-3">
+                                <a href="#" class="tilte_list__section">نام دسته </a>
+                                <a href="#" class="tilte_list__section">نام دسته </a>
+                                <a href="#" class="tilte_list__section">نام دسته </a>
+                                <a href="#" class="tilte_list__section">نام دسته </a>
+                            </div>
+                        </div>
+                        <div class="fast__section__am">
+                            <div class="fast_main___am Clearfix">
+                                <i class="fa fa-tachometer"></i>
+                                <span class="fast_section_title">دسترسی سریع</span>
+                            </div>
+                            <div class="btn_section__am">
+                                <a href="#" class="btn_blue_main__am">
+                                    <i class="fa fa-video-camera blue"></i>
+                                    <span class="blue">درخواست دوره</span>
+                                </a>
+                                <a href="#" class="btn_orang_main__am">
+                                    <i class="fa fa-user orang"></i>
+                                    <span class="orang">ورود / عضویت</span>
+                                </a>
+                                <a href="#" class="btn_gray_main__am">
+                                    <i class="fa fa-film gray_btn"></i>
+                                    <span class="gray_btn">همه دوره ها</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="download_app__am">
+                        <div class="d-flex  download_section__am">
+                            <i class="fa fa-mobile"></i>
+                            <span>دانلود اپیکیشن</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-end  justify-content-center button_section__am">
+                            <a href="#">
+                                <div class="btn_android_am d-flex  align-items-center green-dark">
+                                    <img src="img/Android.png" alt="android">
+                                    <div class="title__btn__am">
+                                        <div>دانلود اپیکیشن</div>
+                                        <div class="title__btn__am">
+                                            Android Apk
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="btn_ios_am d-flex  align-items-center green-dark">
+
+                                    <img src="img/apple.png" alt="android">
+                                    <div class="title__btn__am">
+                                        <div>دانلود اپیکیشن</div>
+                                        <div class="title__btn__am">
+                                            Apple IOS
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu_footer_am">
+        <ul class="menu_footer_section d-flex justify-content-center flex-wrap ">
+            <li>
+                <a href="#">
+                    <i class="fa fa-home"></i>
+                    <span>صفحه اصلی </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-gavel"></i>
+                    <span>صفحه اصلی </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <span>صفحه اصلی </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-envelope-open"></i>
+                    <span>صفحه اصلی </span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="container">
+        <div class="d-flex justify-content-between flex-wrap copy-right-item">
+            <div class="footer_am_down d-flex align-items-center justify-content-center">
+                <img src="img/copyright.png" alt="">
+                <div class="mr-3 copy-right">
+                    طراحی و توسعه: <span class="nova__am">استودو طراحی نوا</span>
+                    <div class="mtn_footer__am">تمامی حقوق و محتوای این سایت نزد <a href="#">دوردید</a> محفوظ است و
+                        هرگونه کپی برداری از آن با ذکر مبنع بلامانع است.
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="#">
+                    <div class="rss_section__am d-flex justify-content-center align-items-center">
+                        <i class="fa fa-rss"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="rss_section__am d-flex justify-content-center align-items-center">
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="rss_section__am d-flex justify-content-center align-items-center">
+                        <i class="fa fa-telegram"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+<!-- footer -->
+<!--modal request for student-->
+<div class="modal fade modal_am" id="sub-commnet">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header header-modal-order">
+                <div class="offer_list_am blue-dark">
+                    <h2 class="IRANSans-Bold offer_teach">پیشنهاد تدریس درس</h2>
+
+                </div>
+                <button type="button" class="close close-icon-req " data-dismiss="modal" aria-label="Close">
+                    <span class="close_icon__am" id="close_icon__am">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body ">
+                <form class="form-group">
+                    <div class="offer_hour_am"><input type="text" placeholder="برای مثال : 15,0000">
+                        <span class="d-inline-block toman_period_list">تومان</span></div>
+                    <div>
+                        <div class="cast_offer__Am">
+                            <span>مبلغ پیشنهادی برای هر ساعت</span>
+                        </div>
+                        <div class="days_teach_am">
+                            <h3 class="days_teach_am_title">روزهای تدریس شما</h3>
+                        </div>
+                        <div class="day_teach_you_am">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn_time_calender__Am transition-5">
+                                            شنبه 18:00 - 21:00
+                                        </a>
+                                        <a href="#" class="btn_time_calender__Am transition-5">
+                                            شنبه 18:00 - 21:00
+                                        </a>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn_time_calender__Am transition-5">
+                                            شنبه 18:00 - 21:00
+                                        </a>
+                                        <a href="#" class="btn_time_calender__Am transition-5">
+                                            شنبه 18:00 - 21:00
+                                        </a>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn_time_calender__Am transition-5">
+                                            شنبه 18:00 - 21:00
+                                        </a>
+                                        <a href="#" class="btn_time_calender__Am transition-5">
+                                            شنبه 18:00 - 21:00
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn_offers__am text-white">
+                        ثبت پیشنهاد تدریس
+                    </button>
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade modal_alarm" id="notifacation">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header header-modal-order">
+                <div class="offer_list_am blue-dark">
+                    <h2 class="IRANSans-Bold offer_teach">اعلانات (3)</h2>
+
+                </div>
+                <button type="button" class="close close-icon-req " data-dismiss="modal" aria-label="Close">
+                    <span class="close_icon__am" id="close_icon__req__am">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body ">
+                <div class="send_req_am">
+                    <p>مدرس <a href="#" class="send_req_am_red">بینام بینامیان</a> پیشنهاد تدریس در <a
+                            href="#" class="orang">درخواست دوره سئو وردپرس</a> برای شما ارسال کرده</p>
+                    <span>23 دقیقه پیش</span>
+                </div>
+                <div class="send_req_am">
+                    <p>درخواست تدریس در پیشنهاد تدریس در <a
+                            href="#" class="orang">درخواست دوره سئو وردپرس</a> از طرف مدرس رد شد !</p>
+                    <span>23 دقیقه پیش</span>
+                </div>
+                <div class="send_req_am">
+                    <p>مدرس <a href="#" class="send_req_am_red">بینام بینامیان</a> پیشنهاد تدریس در <a
+                            href="#" class="orang">درخواست دوره سئو وردپرس</a> برای شما ارسال کرده</p>
+                    <span>23 دقیقه پیش</span>
+                    <div class="btn btn_alarm d-flex align-items-center">
+                        <a class="btn_accept text-white">قبول</a>
+                        <a class="btn_cancel mr-2">رد</a>
+                    </div>
+                </div>
+                <a class="text-center  alarm_see_am" href="#">مشاهده بیشتر</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--modal request for student-->
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightgallery-all.min.js"></script>
+<script src='js/owl.carousel.js'></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+
+</html>

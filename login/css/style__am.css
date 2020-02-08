@@ -1,0 +1,562 @@
+.header_req_img_am {
+    min-height: 320px;
+    background-color: #fbfbfb;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-size: cover;
+}
+
+.btn_req_period_list__am {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb46e;
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    margin-right: 10px;
+    display: block;
+    margin-top: 15px;
+}
+
+.user-class_req_title__am {
+    color: #343890;
+    font-size: 14px;
+}
+
+.refresh_req__am {
+    color: #343890;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.time-calender_req__am {
+    font-size: 14px;
+    margin-right: 15px;
+    color: #ff4552;
+    font-weight: bold;
+}
+
+.btn_time_calender__Am {
+    width: 135px;
+    height: 40px;
+    border: 1px solid #ff4552;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: #ff4552;
+    text-align: center;
+    line-height: 2.6;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.btn_time_calender__Am:hover {
+    background-color: #ff4552;
+    color: #ffffff;
+}
+
+.teacher_req_periodlist {
+    font-size: 14px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.cast_student__am {
+    width: 100%;
+    height: 90px;
+    margin-right: -25px;
+    margin-top: 95px;
+}
+
+.boodjeh_am {
+    width: 95px;
+    background-color: #373971;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 15px;
+}
+
+.money_hour__Am {
+    background-color: #fff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 155px;
+    padding-top: 15px;
+}
+
+.cast_period_req_am {
+    margin-top: 33px;
+    width: 365px;
+}
+
+.cast_req_period_title {
+    background-color: #343890;
+    width: 98%;
+    border-radius: 10px;
+    height: 70px;
+    display: block;
+    text-align: center;
+}
+
+.cast_period_title__h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 5;
+}
+
+#sub-commnet button.close {
+    margin-left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #f7f7f7;
+    margin-top: 0px;
+    position: absolute;
+    left: 11px;
+    top: 20px;
+}
+
+#notifacation button.close {
+    margin-left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #f7f7f7;
+    margin-top: 0px;
+    position: absolute;
+    left: 11px;
+    top: 14px;
+}
+
+.modal_alarm {
+    box-shadow: 0px 0px 49px 0px rgba(26, 26, 26, 0.2);
+    -webkit-box-shadow: 0px 0px 49px 0px rgba(26, 26, 26, 0.2);
+    -moz-box-shadow: 0px 0px 49px 0px rgba(26, 26, 26, 0.2);
+    -ms-box-shadow: 0px 0px 49px 0px rgba(26, 26, 26, 0.2);
+    -o-box-shadow: 0px 0px 49px 0px rgba(26, 26, 26, 0.2);
+}
+
+.close-icon_req {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: #ececec;
+    position: relative;
+}
+
+#sub-commnet.modal-header {
+    direction: ltr;
+}
+
+#notifacation.modal-header {
+    direction: ltr;
+}
+
+#close_icon__am.close_icon__am {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#close_icon__req__am.close_icon__am {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+/*.close-icon_req span{*/
+/*width: 35px;*/
+/*height: 35px;*/
+/*border-radius: 50%;*/
+/*background: #f7f7f7;*/
+/*}*/
+.offer_teach {
+    font-size: 24px;
+}
+
+.offer_hour_am {
+    width: 90%;
+    height: 72px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 46px;
+    position: relative;
+}
+
+.offer_hour_am input {
+    border: 0;
+    margin-top: 25px;
+    padding-right: 35px;
+}
+
+.offer_hour_am input::placeholder {
+    color: #eeeeee;
+    position: relative;
+    right: 10px;
+    opacity: 1; /* Firefox */
+}
+
+.offer_hour_am input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #eeeeee;
+    opacity: 1;
+    padding-right: 20px;
+}
+
+.offer_hour_am input::-webkit-input-placeholder { /* Internet Explorer 10-11 */
+    color: #eeeeee;
+    opacity: 1;
+    padding-right: 20px;
+}
+
+.toman_period_list {
+    color: #9c9c9c;
+    float: left;
+    padding-left: 15px;
+    margin-top: 25px;
+}
+
+.cast_offer__Am span {
+    background-color: #fff;
+    font-size: 12px;
+    width: 195px;
+    position: absolute;
+    padding-right: 25px;
+    top: 52px;
+    right: 44px;
+}
+
+.days_teach_am_title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff4552;
+    margin-top: 35px;
+}
+
+.btn_offers__am {
+    text-align: center;
+    border: 0;
+    width: 100%;
+    height: 52px;
+    background-color: #343890;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.meida_object {
+    font-size: 12px;
+    font-weight: normal;
+    color: #e0e0e0;
+}
+
+.media_head__req__am {
+    width: 300px;
+    color: #dcdcdc;
+    margin-top: 22px;
+    padding-right: 46px;
+}
+
+.media_list_req__am {
+    border: 1px solid #eeeeee;
+    margin-top: 33px;
+}
+
+.student_profile_am {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.modal_am {
+    width: 406px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.media_req__am {
+    width: 352px;
+    height: 185px;
+    border: 1px solid #e4e4e4;
+    margin-top: 40px;
+    position: relative;
+}
+
+.media_head__am {
+    width: 100%;
+    color: #dcdcdc;
+    margin-top: 22px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.media_hour h4 {
+    font-size: 18px;
+    color: #343890;
+    font-weight: bold;
+}
+
+.media_hour {
+    float: left;
+    margin-top: 27px;
+    padding-left: 27px;
+}
+
+.media_span {
+    font-size: 13px;
+}
+
+.media_hour h5 {
+    font-size: 13px;
+    color: #e1e1e1;
+}
+
+.btn_req__am {
+    clear: both;
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    line-height: 3;
+    color: #c3c3c3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn_req__am:hover {
+    background-color: #5287df;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-ransition: 0.5s;
+}
+.media_req__am:hover{
+    box-shadow: 0px 0px 30px #f6f9fd;
+    -webkit-box-shadow: 0px 0px 30px #f6f9fd;
+    -moz-box-shadow: 0px 0px 30px #f6f9fd;
+    -ms-box-shadow: 0px 0px 30px #f6f9fd;
+    -o-box-shadow: 0px 0px 30px #f6f9fd;
+}
+/*moda alarm*/
+.send_req_am {
+    margin-top: 26px;
+    font-size: 14px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 30px;
+}
+
+.send_req_am_red {
+    color: #ff5c68;
+}
+
+.send_req_am span {
+    font-size: 12px;
+    display: inline-block;
+    color: #cfd0e1;
+    margin-top: -10px;
+    float: left;
+}
+
+.send_req_am p {
+    font-size: 14px;
+}
+
+.btn_accept {
+    background-color: #16de86;
+    height: 43px;
+    line-height: 2.5;
+    width: 124px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn_cancel {
+    background-color: #eaeaed;
+    height: 43px;
+    line-height: 2.5;
+    width: 124px;
+    border-radius: 10px;
+    color: #7b7b8a !important;
+}
+
+.alarm_see_am {
+    color: #eaeaed;
+    display: block;
+    text-align: center;
+    margin-top: 27px;
+}
+
+/*moda alarm*/
+@media screen and (max-width: 1200px) {
+    .media_req__am {
+        width: 49%;
+        height: 185px;
+        border: 1px solid #e4e4e4;
+        margin-top: 40px;
+        position: relative;
+        margin-right: 2px;
+    }
+
+    .live_class_btn__am {
+        width: 100%;
+    }
+
+    .cast_req_period_title {
+        background-color: #343890;
+        width: 100%;
+        border-radius: 10px;
+        height: 70px;
+        /* display: block; */
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .cast_period_req_am {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .media_req__am {
+        width: 100%;
+        height: 185px;
+        border: 1px solid #e4e4e4;
+        margin-top: 40px;
+        position: relative;
+        margin-right: 2px;
+    }
+
+    .cast_student__am {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .toman_period_list {
+        color: #9c9c9c;
+        padding-right: 55px;
+    }
+
+    .cast_req_period_title {
+        background-color: #343890;
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .cast_period_req_am {
+        margin-top: 10px;
+    }
+
+    .live_class_btn__am {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cast_student__am {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .toman_period_list {
+        color: #9c9c9c;
+        padding-right: 33px;
+    }
+
+    .cast_req_period_title {
+        background-color: #343890;
+        width: 62%;
+        margin: 0 auto;
+    }
+
+    .cast_period_req_am {
+        margin-top: 10px;
+    }
+
+    .cast_period_req_am {
+        width: 50%;
+    }
+
+    .live_class_btn__am {
+        width: 50%;
+    }
+    .btn_req_period_list__am{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cast_student__am {
+        margin: 15px 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .toman_period_list {
+        color: #9c9c9c;
+        padding-right: 30px;
+    }
+
+    .cast_req_period_title {
+        margin: 0 auto;
+        width: 300px;
+        height: 60px;
+    }
+
+    .cast_req_period_title {
+        background-color: #343890;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .cast_period_req_am {
+        margin-top: 10px;
+    }
+
+    .cast_req_period_title {
+        background-color: #343890;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .live_class_btn__am {
+        width: 100%;
+    }
+    .btn_req_period_list__am{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cast_student__am {
+        margin: 0 auto;
+    }
+
+    .toman_period_list {
+        color: #9c9c9c;
+        padding-right: 57px
+    }
+
+    .cast_req_period_title {
+        width: 320px;
+    }
+
+    .period_title {
+        margin: 0 auto;
+        width: 310px;
+        height: 60px;
+    }
+}
